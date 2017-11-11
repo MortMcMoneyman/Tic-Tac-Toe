@@ -62,11 +62,7 @@
             Anzeige2.BackColor = SystemColors.ButtonFace
         End If
     End Sub
-
-    Sub Minimax()
-
-    End Sub
-
+        
     Sub Neustart()
         Application.DoEvents()
         Threading.Thread.Sleep(1000)
@@ -147,7 +143,7 @@
             .BackColor = SystemColors.ButtonFace
             .Enabled = False
 
-            .Text = Punkte2
+            .Text = Punkte1
         End With
 
         With Anzeige2
@@ -161,7 +157,7 @@
             .BackColor = SystemColors.ButtonFace
             .Enabled = False
 
-            .Text = Punkte1
+            .Text = Punkte2
         End With
 
     End Sub
